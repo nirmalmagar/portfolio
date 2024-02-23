@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PersonalPortfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./animation.css">
 
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -211,28 +212,31 @@
         <div id="contact">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title"> Contact Me</h1>
-                    <div class="contact-link">
-                        <p><i class='bx bx-send'></i>contact@gmail.com</p>
-                        <p><i class='bx bx-phone'></i>0987654321</p>
-                    </div>
-                    <div class="flex-contant">
-                        <div class="social-icons">
-                            <a href=""><i class='bx bxl-facebook'></i></a>
-                            <a href=""><i class='bx bxl-twitter'></i></i></a>
-                            <a href=""><i class='bx bxl-instagram'></i></a>
-                            <a href=""><i class='bx bxl-linkedin'></i></a>
+                    <div>
+                        <h1 class="sub-title"> Contact Me</h1>
+                        <div class="contact-link">
+                            <p><i class='bx bx-send'></i>contact@gmail.com</p>
+                            <p><i class='bx bx-phone'></i>0987654321</p>
                         </div>
-                        <div class="btn-box">
-                            <a href="../images/261020.jpg" download class="btn">Downloade CV</a>
+
+                        <div class="flex-contant">
+                            <div class="social-icons">
+                                <a href=""><i class='bx bxl-facebook'></i></a>
+                                <a href=""><i class='bx bxl-twitter'></i></i></a>
+                                <a href=""><i class='bx bxl-instagram'></i></a>
+                                <a href=""><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                            <div class="btn-box">
+                                <a href="../images/261020.jpg" download class="downloadBtn">Downloade CV</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="contact-right">
                     <form>
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="text" name="email" placeholder="Your Email" required>
-                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <input type="text" name="name" autocomplete="off" placeholder="Your Name" required>
+                        <input type="text" name="email" autocomplete="off" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" autocomplete="off" placeholder="Your Message"></textarea>
                         <div class="btn-box">
                             <button class="btn" type="sumbit">Submit</button>
                         </div>
